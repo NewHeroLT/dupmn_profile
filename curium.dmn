@@ -1,5 +1,5 @@
 COIN_NAME="Curium"                # Name of the coin
-COIN_PATH="/usr/local/bin/"       # NOT required parameter, location of the daemon and cli (only required if they're not in /usr/local/bin/ or /usr/bin/)
+COIN_PATH="/usr/bin/"             # NOT required parameter, location of the daemon and cli (only required if they're not in /usr/local/bin/ or /usr/bin/)
 COIN_DAEMON="curiumd"             # Name of the daemon
 COIN_CLI="curium-cli"             # Name of the cli
 COIN_FOLDER="/root/.curiumcru"       # Folder where the conf file and blockchain are stored
