@@ -1,9 +1,8 @@
-COIN_NAME="Curium"                # Name of the coin
+COIN_NAME="curium"                # Name of the coin
 COIN_PATH="/usr/bin/"             # NOT required parameter, location of the daemon and cli (only required if they're not in /usr/local/bin/ or /usr/bin/)
 COIN_DAEMON="curiumd"             # Name of the daemon
 COIN_CLI="curium-cli"             # Name of the cli
 COIN_FOLDER="/root/.curiumcru"       # Folder where the conf file and blockchain are stored
 COIN_CONFIG="curium.conf"         # Name of the conf file
 RPC_PORT=11772                    # NOT required parameter, it's just to force to start looking from a specific rpc port for those coins that doesn't have a rpcport parameter in the .conf file or that the main node rpc port is not between 1024 and 49451 (otherwise it will start looking at 1024).
-COIN_SERVICE="Curium.service"     # NOT required parameter, if you have a service for the main node, add this parameter for the systemctlall and bootstrap commands.
-FORCE_LISTEN=1                    # USE ONLY IF THE MASTERNODE FORCES YOU TO HAVE listen=1 ON THE .CONF FILE, some mns forces you to use a different IP for each MN, but a few of them also forces you to listen a binded socket, this parameter will change how the dupes are installed to work with them (NOTE: they usually will force you to use a IPv4).
+COIN_SERVICE="curium.service"     # NOT required parameter, if you have a service for the main node, add this parameter for the systemctlall and bootstrap commands.
